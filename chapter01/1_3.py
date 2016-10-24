@@ -10,7 +10,7 @@ def max_in_three(first, second, three):
     
 #使用functools.reduce可以得到任意个参数最大值
 
-import functools.reduce
+from functools import reduce
 
 def max_items(*args):
     """
